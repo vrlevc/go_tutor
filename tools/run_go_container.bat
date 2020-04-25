@@ -1,0 +1,1 @@
+docker run -it --rm -v  C:\Users\viktor_levchenko\Documents\source\repos\go_tutor:/app -v C:\Users\viktor_levchenko\Documents\source\repos\secret:/secret golang bash -c "/app/tools/add_rsa.sh; bash"
