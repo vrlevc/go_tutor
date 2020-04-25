@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# add git credentials
+git config --global user.email "levchenko.victor@example.com"
+git config --global user.name "Viktor Levchenko"
+
 # create a directory for shh
 mkdir -p /root/.ssh
 
