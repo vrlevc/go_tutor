@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# create a directory for shh
+mkdir -p /root/.ssh
+
 # copy rsa key from host to /root/.ssh
 cp /secret/github_rsa /root/.ssh
 
