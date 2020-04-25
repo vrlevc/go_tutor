@@ -1,11 +1,12 @@
-package main
+package test
 
 import (
 	"fmt"
 	"math/cmplx"
+	"testing"
 )
 
-func main() {
+func TestBasicTypes(t *testing.T) {
 	var (
 		ToBe   bool       = false
 		MaxInt uint64     = 1<<64 - 1
